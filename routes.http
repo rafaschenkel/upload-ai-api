@@ -21,7 +21,7 @@ POST http://localhost:3333/videos/2c487b49-4772-4b54-9ccd-ff4993dd4c4f/transcrip
 Content-Type: application/json
 
 {
-    "prompt": "NLW, Evolução, Profissional"
+    "prompt": "ESLint, Prettier, Next, TailwindCSS"
 }
 
 ###
@@ -31,7 +31,7 @@ POST http://localhost:3333/ai/complete
 Content-Type: application/json
 
 {
-    "videoId": "2c487b49-4772-4b54-9ccd-ff4993dd4c4f",
+    "videoId": "206aba64-0af5-4abd-93cc-dee9a405fef5",
     "template": "Gere um resumo sucinto da transcrição do video informado a seguir: '''{transcription}'''",
     "temperature": 0.5
 
